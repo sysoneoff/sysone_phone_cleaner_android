@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'uz.sysone.phonecleaner'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'uz.sysone.phonecleaner'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
